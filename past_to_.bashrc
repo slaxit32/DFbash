@@ -16,3 +16,6 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias cp='cp -v'
 alias mv='mv -v'
+
+#regripper output all hives
+alias regripper_all='regripper -r SAM -f sam > sam_rip.go;regripper -r SECURITY -f security > security_rip.go;regripper -r SOFTWARE -f software > software_rip.go;regripper -r SYSTEM -f system > system_rip.go'
